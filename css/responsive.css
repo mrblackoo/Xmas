@@ -84,7 +84,7 @@
     .sticky-container,
     .ribon,
     .santa {
-        display: none;
+        margin-right: -60px;
     }
     h1 {
         font-size: 75px;
@@ -125,6 +125,9 @@
 
 /* Smaller Mobile Devices */
 @media only screen and (max-width: 480px) {
+    .santa {
+        margin-right: -50px;
+    }
     h1 {
         font-size: 60px;
     }
@@ -160,6 +163,9 @@
 
 /* Even Smaller Mobile Devices */
 @media only screen and (max-width: 360px) {
+    .santa {
+        margin-right: -40px;
+    }
     h1 {
         font-size: 50px;
     }
@@ -188,6 +194,9 @@
 
 /* Smallest Mobile Devices */
 @media only screen and (max-width: 320px) {
+    .santa {
+        margin-right: -30px;
+    }
     h1 {
         font-size: 40px;
     }
@@ -205,5 +214,8 @@
     }
     .bigtag {
         left: 230px;
+    }
+    img{
+        width: 20%
     }
 }
