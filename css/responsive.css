@@ -175,6 +175,9 @@
     .btn-reverse {
         padding: 10px;
     }
+    #hero {
+        height: 240px;
+    }
     #hero .container {
         padding-top: 50px;
     }
@@ -201,6 +204,37 @@
 /* Smallest Mobile Devices */
 @media only screen and (max-width: 320px) {
     .santa {
+        margin-right: -90px;
+        margin-top: -250px;
+    }
+    h1 {
+        font-size: 40px;
+    }
+    h2 {
+        font-size: 17px;
+    }
+    #hero {
+        height: 500px;
+    }
+    #hero p {
+        padding-top: 10px;
+    }
+    #overview {
+        padding-top: 50px;
+    }
+    .bigbell {
+        margin-top: -30px;
+    }
+    .bigtag {
+        left: 230px;
+    }
+    img{
+        width: 20%
+    }
+}
+/* very Smallest Mobile Devices */
+@media only screen and (max-width: 210px) {
+    .santa {
         margin-right: -30px;
     }
     h1 {
@@ -208,6 +242,9 @@
     }
     h2 {
         font-size: 17px;
+    }
+    #hero {
+        height: 210px;
     }
     #hero p {
         padding-top: 40px;
@@ -219,7 +256,7 @@
         margin-top: -30px;
     }
     .bigtag {
-        left: 230px;
+        left: 200px;
     }
     img{
         width: 20%
