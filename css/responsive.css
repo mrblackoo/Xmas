@@ -167,8 +167,8 @@
 /* Even Smaller Mobile Devices */
 @media only screen and (max-width: 360px) {
     .santa {
-        margin-right: -90px;
-        margin-top: -250px;
+        margin-right: -75px;
+        margin-top: 0px;
     }
     h1 {
         font-size: 50px;
@@ -177,16 +177,19 @@
         padding: 10px;
     }
     #hero {
-        height: 500px;
+        height: 520px;
     }
     #hero .container {
-        padding-top: 50px;
+        padding-top: 10px;
+    }
+    #hero p {
+        padding-top: 15px;
     }
     .optional {
         display: none;
     }
     .bigbell {
-        margin-top: -50px;
+        margin-top: -70px;
     }
     .bigtag {
         left: 270px;
@@ -198,7 +201,13 @@
         background: none;
     }
     img{
-        width: 30%
+        width: 50%
+    }
+    #overview {
+        height: 520px;
+    }
+    #overview .container {
+        padding-top: 10px;
     }
 }
 
