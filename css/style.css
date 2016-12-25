@@ -149,7 +149,7 @@ HERO SECTION
 #hero p {text-transform: uppercase;}
 
 #hero p {
-    padding-top: 15px;
+    padding-top: 75px;
     color: #fff;
 }
 
@@ -173,7 +173,7 @@ OVERVIEW SECTION
     padding-top: 50px;
 }
 
-#overview img {height: 120px;}
+
 
 /* --------------------- 
 CALL-TO-ACTION SECTION
