@@ -6,6 +6,7 @@ $(document).ready(
   		}else{
   			$("#g2011").text(gname);
   			setCookie("t2011",gname,365);
+  			$("#img2011").attr("src", "img/gift.png")
   		};	
 		
 		$("#gift").val("");//https://docs.google.com/spreadsheets/d/1C4faFNRfx6r-lER09BfOUuZ3fE5w5KTnrl4WfL5ta2U/pubhtml
@@ -18,6 +19,7 @@ $(document).ready(
   		}else{
   			$("#g2012").text(gname);
   			setCookie("t2012",gname,365);
+  			$("#img2012").attr("src", "img/gift.png")
   		};	
 		
 		$("#gift1").val("");//https://docs.google.com/spreadsheets/d/1C4faFNRfx6r-lER09BfOUuZ3fE5w5KTnrl4WfL5ta2U/pubhtml
@@ -30,6 +32,7 @@ $(document).ready(
   		}else{
   			$("#g2013").text(gname);
   			setCookie("t2013",gname,365);
+  			$("#img2013").attr("src", "img/gift.png")
   		};	
 		
 		$("#gift2").val("");//https://docs.google.com/spreadsheets/d/1C4faFNRfx6r-lER09BfOUuZ3fE5w5KTnrl4WfL5ta2U/pubhtml
@@ -42,6 +45,7 @@ $(document).ready(
   		}else{
   			$("#g2014").text(gname);
   			setCookie("t2014",gname,365);
+  			$("#img2014").attr("src", "img/gift.png")
   		};	
 		
 		$("#gift3").val("");//https://docs.google.com/spreadsheets/d/1C4faFNRfx6r-lER09BfOUuZ3fE5w5KTnrl4WfL5ta2U/pubhtml
@@ -54,6 +58,7 @@ $(document).ready(
   		}else{
   			$("#g2015").text(gname);
   			setCookie("t2015",gname,365);
+  			$("#img2015").attr("src", "img/gift.png")
   		};	
 		
 		$("#gift4").val("");//https://docs.google.com/spreadsheets/d/1C4faFNRfx6r-lER09BfOUuZ3fE5w5KTnrl4WfL5ta2U/pubhtml
@@ -66,6 +71,7 @@ $(document).ready(
   		}else{
   			$("#g2016").text(gname);
   			setCookie("t2016",gname,365);
+  			$("#img2016").attr("src", "img/gift.png")
   		};	
 		
 		$("#gift5").val("");//https://docs.google.com/spreadsheets/d/1C4faFNRfx6r-lER09BfOUuZ3fE5w5KTnrl4WfL5ta2U/pubhtml
@@ -110,22 +116,29 @@ $(function initialGetCookie() {
 	    var p2016=getCookie("p2016");
 	    if (t2011 != "") {
 	        $("#g2011").text(t2011);
+	        $("#img2011").attr("src", "img/gift.png")
 	    }
 	    if (t2012 != "") {
 	        $("#g2012").text(t2012);
+	        $("#img2012").attr("src", "img/gift.png")
 	    }
 	    if (t2013 != "") {
 	        $("#g2013").text(t2013);
+	        $("#img2013").attr("src", "img/gift.png")
 	    }
 	    if (t2014 != "") {
 	        $("#g2014").text(t2014);
+	        $("#img2014").attr("src", "img/gift.png")
 	    }
 	    if (t2015 != "") {
 	        $("#g2015").text(t2015);
+	        $("#img2015").attr("src", "img/gift.png")
 	    }
 	    if (t2016 != "") {
 	        $("#g2016").text(t2016);
+	        $("#img2016").attr("src", "img/gift.png")
 	    }
+
 	});
 
 function setCookie(cname, cvalue, exdays) {
