@@ -159,6 +159,9 @@
     .logo {
         font-size: 28px;
     }
+    img{
+        width: 40%
+    }
 }
 
 /* Even Smaller Mobile Devices */
@@ -189,6 +192,9 @@
     }
     #products {
         background: none;
+    }
+    img{
+        width: 30%
     }
 }
 
